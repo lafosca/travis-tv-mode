@@ -1,0 +1,89 @@
+#top, #main, #right, #search_box, .last_build {
+    display: none;
+}
+
+.summary {
+    float: right;
+}
+
+.application {
+    margin-top: 0px;
+}
+
+#left {
+    width: 100%;
+    max-width: 100%;
+    background: #282828;
+}
+
+#left li {
+    background: #282828;
+    color: white;
+    font-size: 41px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    border-bottom: 1px solid #555;
+    height: 100px;
+}
+
+#left li a {
+    color: #FFF;
+    height: 70px;
+    top: 40px;
+    position: relative;
+}
+
+.slug-and-status {
+    height: 112px;
+}
+
+#repos .status {
+    background-repeat: no-repeat;
+    background-position-y: -2px;
+    background-position-x: -2px;
+    height: 100px;
+    margin-top: 10px;
+    float: left;
+    width: 100px;
+}
+#repos .red .status, .red #summary .number .status, .list .red .number .status {
+    background-image: url('http://cl.ly/image/0D292d0z1f1a/red.png');
+    background-size: 84px 80px;
+}
+
+#repos .green .status, .green #summary .number .status, .list .green .number .status {
+    background-image: url('http://cl.ly/image/052c0q3H3A1K/green.png');
+}
+
+#repos .yellow .status, .yellow #summary .number .status, .list .yellow .number .status {
+    background-image: url('http://cl.ly/image/3L1025291w3t/progress.png');
+}
+
+#accounts li .summary, #repos li .summary {
+    margin: 5px 0 0 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #303030;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    top: 49px;
+    right: 35px;
+    height: 70px;
+}
+
+.timeago {
+    color: #FFF;
+    font-size: 31px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    position: relative;
+    top: 4px;
+}
+
+.duration_label, .duration, .finished_at_label {
+    display: none;
+}
+
+
