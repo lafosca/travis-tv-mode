@@ -2,7 +2,7 @@
 
 This CSS is an override of the Travis css file to use it on a TV. Here is an example of usage at @lafosca:
 
-![Travis CI in a TV](http://cl.ly/image/0e311D460E0p/travisCITV.png)
+![Travis CI in a TV](https://dl.dropboxusercontent.com/u/1264953/travisCI.png)
 
 ## Installation
 
@@ -12,5 +12,5 @@ This CSS is an override of the Travis css file to use it on a TV. Here is an exa
 
 * Voila!
 
-![Travis CI in a TV](http://cl.ly/image/2R2a311D3Y1h/IMG_2424.JPG)
+![Travis CI in a TV](http://cl.ly/image/0325282v311C/IMG_2424.JPG)
 
